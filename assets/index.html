@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap project</title>
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!-- connect bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container prototype py-5">
+      <h2>What is prototype</h2>
+      <p>Each and Every javascript object has a prototype property</p>
+      <p>Inheritance in javascript is achieved using this prototype property</p>
+      <p>when we attach a property or a method to the prototype property of that object,those properties and methods can be inherited by the instantiated object</p>
+    </div>
+    <h1 class="heading text-center my-3">Welcome Javascript !</h1>
+    <p class="text-center info">
+      Dream is not what you see in sleep dream is the thing which can not let
+      you sleep
+    </p>
+
+    <div class="user-container container my-5"></div>
+    <hr />
+
+    <div id="root" class="container"></div>
+
+    <section class="cart-section">
+      <button class="showQuantity button">Show Quantity</button>
+      <button class="AddToCart button bg-primary">Add To Cart</button>
+      <button class="button increaseDouble">+2</button>
+      <button class="button increaseThree bg-dark">+3</button>
+      <button class="ResetCart button bg-danger">Reset Cart</button>
+    </section>
+
+    <script>
+      let cartQuantity = 0;
+    </script>
+
+    <div class="productContainer"></div>
+
+    <div class="container object-orientedProgramming">
+      <h1 class="text-center mb-5">Object Oriented Programming</h1>
+
+      <h3>1. OOP means All About Object</h3>
+      <h3>2. There are three ways to make object in oop</h3>
+
+      <p class="mt-5">** Function constructor</p>
+      <p>** Classes</p>
+      <p>** object.create()</p>
+    </div>
+
+    <h1 class="text-center">On click Image change</h1>
+    <div class="image-container container">
+      <img src="images/shirt1.jpg" alt="" class="mainImg" />
+
+      <div class="store-container">
+        <div class="store-item">
+          <img src="images/shirt3.jpg" alt="" class="store" />
+        </div>
+        <div class="store-item">
+          <img src="images/shirt2.jpg" alt="" class="store" />
+        </div>
+        <div class="store-item">
+          <img src="images/shirt1.jpg" alt="" class="store" />
+        </div>
+      </div>
+    </div>
+
+    <div class="css-grid">
+      <div class="image-container container">
+        <div class="img large">
+          <img src="images/beautiful girl.avif" alt="" />
+        </div>
+
+        <div class="img normal">
+          <img src="images/medicine.avif" alt="" />
+        </div>
+
+        <div class="img medium">
+          <img src="images/shirt1.jpg" alt="" />
+        </div>
+
+        <div class="img normal">
+          <img src="images/shirt2.jpg" alt="" />
+        </div>
+
+        <div class="img large">
+          <img src="images/shirt3.jpg" alt="" />
+        </div>
+
+        <div class="img normal">
+          <img src="images/shirt4.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/app.js" type="module"></script> -->
+
+    <!-- <script src="../assets/js/primitive-reference.js"></script> -->
+    <script src="/assets/js/object-oriented-programming.js"></script>
+  </body>
+</html>
